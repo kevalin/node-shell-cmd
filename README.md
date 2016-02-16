@@ -4,13 +4,14 @@ exec more commands of linux-servers in the same time asynchronously.
 ---
 * Install
 
-    ```bash
+    ```Bash
     npm install node-shell-cmd
     ```
 * Usage
 
-    ```javascripts
+    ```javascript
     var nodeShell = require('node-shell-cmd');
+    
     // format infomations of password
     var passwordInfos = nodeShell.makeLoginPassword(['192.168.1.1', '192.168.1.2'], 22, 'root', '123456');
 
