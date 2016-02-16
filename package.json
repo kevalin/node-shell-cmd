@@ -2,10 +2,7 @@
   "name": "node-shell-cmd",
   "version": "0.0.1",
   "description": "use node to exec linux shell",
-  "author": {
-    "name": "Kevalin",
-    "email": "kevalin123@gmail.com"
-  },
+  "author": "Kevalin <kevalin123@gmail.com>",
   "dependencies": {
     "async": "^1.5.0",
     "mocha": "^2.3.4",
@@ -18,5 +15,25 @@
   "scripts": {
     "test": "mocha test.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kevalin/node-shell-cmd.git"
+  },
+  "keywords": [
+    "shell",
+    "node",
+    "linux"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kevalin/node-shell-cmd/issues"
+  },
+  "homepage": "https://github.com/Kevalin/node-shell-cmd"
 }
