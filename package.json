@@ -1,0 +1,22 @@
+{
+  "name": "node-shell-cmd",
+  "version": "0.0.1",
+  "description": "use node to exec linux shell",
+  "author": {
+    "name": "Kevalin",
+    "email": "kevalin123@gmail.com"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2",
+    "ssh2": "^0.4.13"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "license": "MIT"
+}
